@@ -1,0 +1,36 @@
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+
+#submenu li{
+    float: none;
+    width: 100%;
+}
+
+.hover-icons{
+    background-color: #2b88c4;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.hover-popup{
+    background-color: white;
+    color: white;
+    display: flex;
+}

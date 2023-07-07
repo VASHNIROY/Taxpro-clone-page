@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+.heading1{
+    color: #2b88c4;
+    font-family: Azonix;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 2.5em;
+    text-align: center! important;
+}
+.heading2{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    text-align: center! important;
+}
+.para{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    text-align: center! important;
+}
+.card{
+    width: 360px;
+    height: 800px;    
+    padding: 15px;
+   
+} 
+.box-blue{
+    background-color: #2b88c4;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.blue-p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.blue-h1{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.box-white{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #2b88c4;
+    border-radius: 8px;
+}
+
+.white-p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+}
+.white-h1{
+    font-size: 30px;
+    
+    font-weight: 600;
+}
+.imagesize{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.imagemiddle{
+    height: 350px;
+    width: 570px;
+}
+.imageblue{
+    height: 350px;
+}
+
+.imagebody{
+    width: 1200px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.imageheart{
+    background-color: #2b88c4;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}

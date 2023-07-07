@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+//import Navbar from './Components/Navbar';
 import './App.css';
+import { Component } from 'react';
+import Navbar from './Components/Navbar';
+import HomePage from './Components/HomePage';
+import Footer from './Components/Footer'
+import MiddleComponent from './Components/MiddleComponent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div>
+        <Navbar />
+        <HomePage />
+        <MiddleComponent />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;
