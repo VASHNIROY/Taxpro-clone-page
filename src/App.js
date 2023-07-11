@@ -1,20 +1,21 @@
-//import Navbar from './Components/Navbar';
-import './App.css';
+import { Route,Routes } from 'react-router-dom';
 import { Component } from 'react';
+import LandingPage from './Components/LandingPage';
 import Navbar from './Components/Navbar';
-import HomePage from './Components/HomePage';
-import Footer from './Components/Footer'
-import MiddleComponent from './Components/MiddleComponent';
+import Register from './Components/Register'
+import './App.css';
+
 
 class App extends Component {
   render(){
     return (
-      <div>
+      <>
         <Navbar />
-        <HomePage />
-        <MiddleComponent />
-        <Footer />
-      </div>
+        <Routes>
+          <Route path="/" Component={LandingPage} />
+          <Route path="/register" Component={Register} />
+        </Routes>
+      </>
     )
   }
 }

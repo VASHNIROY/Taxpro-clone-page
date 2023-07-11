@@ -1,7 +1,8 @@
 import { Component } from "react";
 import {Link} from 'react-router-dom'
-import Featurescomponent from "../Featurescomponent";
+import FeaturesHoverComponent from "../FeaturesHoverComponent";
 import "./index.css"
+import ContactusHoverComponent from "../ContactusHoverComponent";
 
 class Navbar extends Component{
     render(){
@@ -12,15 +13,23 @@ class Navbar extends Component{
                 <ul className='nav-un-ordered-list-container'>
                     <Link className="reviews-list-link" to="/jobs">
                         <li>FEATURES
-                            <Featurescomponent/>   
+                            <FeaturesHoverComponent />   
                         </li>
                     </Link>
-                    <Link className="reviews-list-link" to="/reviews"><li>ABOUT US</li></Link>
-                    <Link className="reviews-list-link" to="/services"><li>CONTACT US</li></Link>
+                    <Link className="reviews-list-link" to="/reviews">
+                        <li>ABOUT US 
+                        </li>
+                    </Link>
+                    <Link className="reviews-list-link" to="/services">
+                        <li>
+                            CONTACT US
+                            <ContactusHoverComponent />
+                        </li>
+                    </Link>
                 </ul>
                 <div className="sign-in-btn-container">
                     <p className="sign-in-para">SIGN IN</p>
-                    <button className='join-button'>GET STARTED</button>
+                    <Link to="/register" className="nav-link"><button className='join-button'>GET STARTED</button></Link>
                 </div>
             </div>
             

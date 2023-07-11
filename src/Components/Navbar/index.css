@@ -13,9 +13,11 @@
     width: 90%;
     align-items: center;
 }
+
 .logo{
     height: 60px;
 }
+
 .nav-un-ordered-list-container{
     list-style-type: none;
     color: black;
@@ -30,6 +32,7 @@
     display: flex;
     align-self: center;
     margin-top: 15px;
+    color: black;
 }
 
 .join-button{
@@ -45,6 +48,10 @@
     font-size: 15px;
     border: none;
     outline: none;
+}
+
+.nav-link{
+    text-decoration: none;
 }
 
 .whatsapp-animation{
@@ -65,7 +72,6 @@
     color: black;
     font-weight: 600;
     font-size: 15px;
-    
 }
 
 .sign-in-btn-container{
@@ -76,8 +82,6 @@
     align-self: center;
 }
 
-
-
 .dropdownmenu ul, .dropdownmenu li{
     margin: 0;
     padding: 0;
@@ -85,6 +89,7 @@
 
 .dropdownmenu ul{
     list-style: none;
+    background-color: white;
 }
 
 .dropdownmenu li{
@@ -94,11 +99,12 @@
     transition: all 0.25s ease;
 }
 
-.dropdownmenu li: :hover{
+/*
+.dropdownmenu li ::hover{
     background-color: black;
 }
+*/
 
-/*
 #submenu{
     left: 0;
     opacity: 0;
@@ -106,17 +112,19 @@
     top: 35px;
     visibility: hidden;
     z-index: 1;
+
 }
 
 li:hover ul#submenu{
     opacity: 1;
-    top: 80px;
+    top: 50px;
+    display: flex;
     visibility: visible;
 }
 
 #submenu li{
     float: none;
-    width: 100%;
+    width: 30%;
 }
 
-*/
+
